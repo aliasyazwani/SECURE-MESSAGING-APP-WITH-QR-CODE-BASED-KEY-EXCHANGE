@@ -1,0 +1,49 @@
+name: secure_link
+description: "SecureLink - Secure One-Time Session Messaging App (FYP)"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^4.7.0
+  firebase_auth: ^6.4.0
+  cloud_firestore: ^6.3.0
+
+  # Secure local storage (PIN hash, TOTP secret)
+  flutter_secure_storage: ^9.2.2
+
+  # Real cryptography: X25519 ECDH, HKDF-SHA256, AES-256-GCM, PBKDF2
+  cryptography: ^2.7.0
+
+  # QR code generation (for session QR and TOTP setup QR)
+  qr_flutter: ^4.1.0
+
+  # QR code scanning (camera-based)
+  mobile_scanner: ^5.2.3
+
+  # TOTP / HOTP RFC 6238 implementation
+  otp: ^3.1.4
+
+  # UUID for session IDs and message IDs
+  uuid: ^4.5.1
+
+  # State management
+  provider: ^6.1.2
+
+  # Icons
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true

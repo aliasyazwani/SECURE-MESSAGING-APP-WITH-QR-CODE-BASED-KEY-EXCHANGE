@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "235672247006",
+    "project_id": "linkfyp2",
+    "storage_bucket": "linkfyp2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:235672247006:android:82f0466be9b6736248004f",
+        "android_client_info": {
+          "package_name": "com.fyp.secure_link"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtC-_OJBWWuViHm47zHaY86uYaNRI9Ngs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
